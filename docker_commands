@@ -1,0 +1,5 @@
+docker build -t imagename .
+
+docker run -itd -p 8080:8080n imagename
+
+docker rm -f `docker ps -a -q`
